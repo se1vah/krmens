@@ -1,4 +1,4 @@
-# SM Collections - Invoice & Inventory Management System
+# KR Mens - Invoice & Inventory Management System
 
 A full-stack, enterprise-grade **Invoice and Inventory Management Web Application** built with **Next.js (App Router)** and **MySQL**, designed for precision billing, dynamic stock synchronization, and professional PDF generation.
 
@@ -56,7 +56,7 @@ A full-stack, enterprise-grade **Invoice and Inventory Management Web Applicatio
 
 ## 🗄️ Database Architecture
 
-Connects to existing MySQL tables in `sm_collections`:
+Connects to existing MySQL tables in `kr_mens`:
 
 ### `Items` Table
 ```sql
@@ -99,7 +99,7 @@ CREATE TABLE Invoice_Items (
 
 ### 1. Prerequisites
 - **Node.js**: v18.x or v20+ (Node v24 supported)
-- **MySQL Server**: Running on `localhost:3306` with database `sm_collections`
+- **MySQL Server**: Running on `localhost:3306` with database `kr_mens`
 
 ### 2. Configure Environment Variables
 Copy `.env.local.example` to `.env.local`:
@@ -113,7 +113,7 @@ DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=
-DB_NAME=sm_collections
+DB_NAME=kr_mens
 ```
 
 ### 3. Install Dependencies

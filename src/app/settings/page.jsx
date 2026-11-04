@@ -316,7 +316,7 @@ export default function SettingsPage() {
             </p>
 
             <div className="bg-slate-50 p-3 rounded-xl border border-slate-200 font-mono text-[10px] leading-tight text-slate-700 select-none">
-              <div className="text-center font-bold text-slate-900">SM COLLECTION&apos;S</div>
+              <div className="text-center font-bold text-slate-900">KR MENS</div>
               <div className="text-center text-[9px] text-slate-500">Smart Shopping, Better Living</div>
               <div className="text-center text-[9px] text-slate-500">Lakshmana Theertham, Rameswaram</div>
               <div className="text-center text-[9px] text-slate-500">Ph: 9629967006</div>

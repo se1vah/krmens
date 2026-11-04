@@ -49,10 +49,10 @@ export default function Sidebar() {
       <div className="lg:hidden flex items-center justify-between bg-white border-b border-slate-200 px-4 py-3 sticky top-0 z-40">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold shadow-sm">
-            SM
+            KR
           </div>
           <div>
-            <h1 className="text-sm font-bold text-slate-800 leading-tight">SM Collections</h1>
+            <h1 className="text-sm font-bold text-slate-800 leading-tight">KR Mens</h1>
             <p className="text-[10px] text-slate-500">Invoice & Inventory</p>
           </div>
         </div>
@@ -97,11 +97,11 @@ export default function Sidebar() {
         <div className="p-5 border-b border-slate-800/80 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-700 to-blue-500 flex items-center justify-center text-white font-extrabold text-lg shadow-md shadow-blue-500/20">
-              SM
+              KR
             </div>
             <div>
               <h2 className="font-bold text-base tracking-tight text-white flex items-center gap-1.5">
-                SM Collections
+                KR Mens
               </h2>
               <p className="text-xs text-blue-400 font-medium">ERP Suite</p>
             </div>

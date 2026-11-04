@@ -91,7 +91,7 @@ export function buildInvoiceReceiptCommands(invoice) {
   addCmd(ESC_POS.ALIGN_CENTER);
   addCmd(ESC_POS.BOLD_ON);
   addCmd(ESC_POS.FONT_DOUBLE_HEIGHT);
-  addText("SM COLLECTION'S");
+  addText("KR MENS");
   addCmd(ESC_POS.FONT_NORMAL);
   addCmd(ESC_POS.BOLD_OFF);
   addText('Smart Shopping, Better Living');
@@ -228,7 +228,7 @@ export function buildTestPrintCommands(printerName = 'KPC307-UEWB-2EFE') {
   addCmd(ESC_POS.ALIGN_CENTER);
   addCmd(ESC_POS.BOLD_ON);
   addCmd(ESC_POS.FONT_DOUBLE_HEIGHT);
-  addText("SM COLLECTION'S");
+  addText("KR MENS");
   addCmd(ESC_POS.FONT_NORMAL);
   addCmd(ESC_POS.BOLD_OFF);
   addText('Thermal Printer Diagnostic Test');

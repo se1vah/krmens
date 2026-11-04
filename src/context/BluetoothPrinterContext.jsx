@@ -41,7 +41,7 @@ export function BluetoothPrinterProvider({ children }) {
       setIsSupported(supported);
 
       // Check saved printer name from previous session
-      const savedName = localStorage.getItem('sm_printer_name');
+      const savedName = localStorage.getItem('kr_printer_name') || localStorage.getItem('sm_printer_name');
       if (savedName) {
         setDeviceName(savedName);
       }
@@ -99,7 +99,8 @@ export function BluetoothPrinterProvider({ children }) {
       const name = selectedDevice.name || 'KPC307-UEWB-2EFE Thermal Printer';
       setDeviceName(name);
       setDeviceId(selectedDevice.id || 'N/A');
-      localStorage.setItem('sm_printer_name', name);
+      localStorage.setItem('kr_printer_name', name);
+      localStorage.removeItem('sm_printer_name');
 
       // Listen for disconnection
       selectedDevice.removeEventListener('gattserverdisconnected', handleDisconnected);

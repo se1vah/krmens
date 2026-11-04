@@ -48,7 +48,7 @@ export async function GET(request, { params }) {
       bufferPages: true,
       info: {
         Title: `Receipt_${invoice.InvoiceID}`,
-        Author: 'SM Collections',
+        Author: 'KR Mens',
         Subject: `Thermal Receipt #${invoice.InvoiceID}`,
       },
     };
@@ -118,7 +118,7 @@ export async function GET(request, { params }) {
 
     // --- 1. STORE HEADER (Centered) ---
     doc.font(fontBold).fontSize(11).fillColor('#000000');
-    doc.text("SM COLLECTION'S", marginLeft, y, { width: contentWidth, align: 'center' });
+    doc.text("KR MENS", marginLeft, y, { width: contentWidth, align: 'center' });
     y += 14;
 
     doc.font(fontRegular).fontSize(7.5);

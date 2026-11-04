@@ -4,7 +4,7 @@ import { Toaster } from 'sonner';
 import { BluetoothPrinterProvider } from '@/context/BluetoothPrinterContext';
 
 export const metadata = {
-  title: 'SM Collections | Invoice & Inventory Management',
+  title: 'KR Mens | Invoice & Inventory Management',
   description: 'Full-stack Invoice and Inventory Management System with MySQL',
 };
 

@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import { Button } from './Button';
 
-const VIEWPORT_ID = 'sm-barcode-scanner-viewport';
+const VIEWPORT_ID = 'kr-mens-barcode-scanner-viewport';
 
 export default function BarcodeScannerModal({
   isOpen,

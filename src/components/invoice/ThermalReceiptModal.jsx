@@ -167,7 +167,7 @@ export default function ThermalReceiptModal({ isOpen, onClose, invoice }) {
             {/* Header */}
             <div className="text-center">
               <div className="font-bold text-[14px] uppercase tracking-wide">
-                SM COLLECTION&apos;S
+                KR MENS
               </div>
               <div className="text-[10px] mt-0.5">Smart Shopping, Better Living</div>
               <div className="text-[10px]">Lakshmana Theertham,</div>
